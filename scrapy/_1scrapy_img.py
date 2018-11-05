@@ -17,3 +17,5 @@ l = [l['src'] for l in imgsrc]
 for i in range(len(l)):
     print(i)
     urlretrieve(l[i],'./img/image%d.jpg' %i)
+
+    
