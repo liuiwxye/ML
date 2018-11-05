@@ -23,4 +23,4 @@ for i in range(20):
         his.append(random.sample(sub_urls,1)[0]['href'])
     else:
         his.pop()
-        
+
