@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+"""
+@author: admin
+"""
+
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
@@ -18,3 +23,4 @@ for i in range(20):
         his.append(random.sample(sub_urls,1)[0]['href'])
     else:
         his.pop()
+        
